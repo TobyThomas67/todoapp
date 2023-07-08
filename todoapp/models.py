@@ -2,5 +2,6 @@ from django.db import models
 
 # Create your models here.
 class todoapp(models.Model):
-    notes=models.CharField(max_length=100)
-    main=models.CharField(max_length=50)
+    Dates=models.DateTimeField()
+    Importancy= models.CharField(max_length=50)
+    Notes = models.CharField(max_length=100)
